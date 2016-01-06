@@ -25,6 +25,7 @@
 	},
 	"dependencies": {
 		"commander": "^2.9.0",
+		"node-gitlab": "^1.2.1",
 		"request-promise": "^1.0.2",
 		"zero-async": "^0.0.20151202",
 		"zero-encoding": "^0.0.20151030",
