@@ -1,0 +1,44 @@
+{
+	"name": "gitlab-helper",
+	"productName": "gitlab-helper",
+	"version": "0.0.20151202",
+	"description": "helper script to manage npm gitlabs",
+	"license": "MIT",
+	"main": "lib/index.js",
+	"homepage": "https://github.com/leungwensen/gitlab-helper",
+	"keywords": [
+		"npm",
+		"spm",
+		"gitlab-helper"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/leungwensen/gitlab-helper.git"
+	},
+	"author": {
+		"name": "绝云",
+		"email": "leungwensen@gmail.com",
+		"url": "leungwensen.com"
+	},
+	"engines": {
+		"node": ">=0.10.0"
+	},
+	"dependencies": {
+		"commander": "^2.9.0",
+		"request-promise": "^1.0.2",
+		"zero-async": "^0.0.20151202",
+		"zero-encoding": "^0.0.20151030",
+		"zero-fmt": "^0.0.20151202",
+		"zero-lang": "^0.0.20151202"
+	},
+	"devDependencies": {},
+	"bin": {
+		"gitlab-helper": "./bin/cli.js"
+	},
+	"scripts": {},
+	"files": [
+		"bin",
+		"lib",
+		"package.json"
+	]
+}
