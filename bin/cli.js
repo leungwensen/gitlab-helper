@@ -18,7 +18,7 @@ commander
   .option('--to-api <url>', 'target project gitlab-api url')
   .option('--to-token <token>', 'target project gitlab token')
   .option('--to-project <namespace/project_name>', 'target project name')
-  .option('--override', 'override target project')
+  .option('--force', 'override or delete resources of the target project')
   .action(function(options) {
     require('../lib/sync')(options);
   });
