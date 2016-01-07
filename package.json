@@ -1,7 +1,7 @@
 {
 	"name": "gitlab-helper",
 	"productName": "gitlab-helper",
-	"version": "0.0.20151202",
+	"version": "0.0.20160107",
 	"description": "helper script to manage npm gitlabs",
 	"license": "MIT",
 	"main": "lib/index.js",
